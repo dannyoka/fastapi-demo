@@ -1,7 +1,4 @@
 from fastapi import FastAPI
-from typing import Optional
-from models.Item import Item
-from models.Customer import Customer
 from routers import items, customers
 
 
